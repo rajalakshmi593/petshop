@@ -1,0 +1,156 @@
+
+
+.main-header{
+    height: 20vh;
+    width: 200vh;
+    position : relative;
+    display:  flex;
+    background-color:rgb(10, 8, 8);
+    z-index: 9;
+    
+}
+.main-header .box1{
+    height: 20vh;
+    width: 40vh;
+    border:0-px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    background-image: url(images/food6.jpg);
+
+
+}
+.main-header .box2{
+    height: 20vh;
+    width: 40vh;
+    border:0px solid rgb(8, 8, 8);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url(images/food9.jpg);
+}
+.main-header .box3{
+    height: 20vh;
+    width: 40vh;
+    border:0px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    background-image: url(images/download\ \(3\).jpg);
+}
+.main-header .box4{
+    height: 20vh;
+    width: 40vh;
+    border:0px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    background-image: url(images/food1.jpg);
+}
+.main-header .box5{
+    height: 20vh;
+    width: 40vh;
+    border:0px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    background-image: url(images/dog\ food4.jpg);
+}
+
+
+.container1 .box1{
+    height:400px;
+    border: 1px solid  rgba(165, 42, 42, 0.459);
+
+}
+.base h2{
+    top: 10px;
+    color: rgb(7, 5, 6);
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+}
+.logo{
+    height:100px;
+    width: 100px;
+    border-radius: 100px;
+
+}
+.base{
+    height: 15vh;
+}
+.contact{
+    height:400px;
+}
+.contact h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+}
+.block{
+    height: 200px;
+    background-color: rgba(165, 42, 42, 0.459);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.block .block1{
+    position: relative;
+    background-color:  rgba(165, 42, 42, 0.144);
+}
+.block .block1 a img{
+    height: 170px;
+    width:140px;
+    border:0px solid  rgba(165, 42, 42, 0.356);
+    border-radius: 500px;
+    position: absolute;
+    left: 50px;
+}
+.block a img:hover{
+    box-shadow: 2px 2px 3px 3px rgb(7, 6, 6);
+    border-radius: 100px;
+}
+.block .block1 a h1{
+    text-decoration: none;
+    position: absolute;
+    bottom: 1px;
+    left: 70px;
+    color:black;
+}
+
+.catanddog {
+    border:0px solid white;
+    height: 50vh;
+    width: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+
+}
+.catanddog .catanddog1:hover {
+    height: 300px;
+    border: 0px solid white;
+    border-radius: 30px;
+}
+img{
+    width: 50vh;
+    height: 200px;
+    border-radius: 30px;
+    transition: 0.5s ease-in;   
+
+}
+.catanddog .catanddog1 img:hover{
+    border-radius: 400px;
+    transition: 0.5s ease-in;
+}
+.catanddog .catanddog img:hover{
+    box-shadow: 2px 2px 4px  blue;
+    border-radius: 60%;
+}
+h2{
+    color:rgb(238, 235, 235);
+    left: 500%;
+}
+p{
+    color:rgb(209, 17, 135);
+    font-style: italic;
+}

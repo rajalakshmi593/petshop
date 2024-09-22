@@ -1,0 +1,97 @@
+
+.main-header{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    z-index: 9;
+    box-sizing: border-box;
+    
+}
+.main-header ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    font-family: fantasy;
+}
+.main-header ul{
+    display: flex;
+    gap: 20px;
+    right: 100px;
+    padding-top: 20px;
+    padding-right:100px;
+    word-spacing: 10px;
+
+}
+
+.main-header ul li a{
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    
+}
+.main-header ul li a:hover{
+    background-color: rgb(196, 39, 39);
+    padding: 5px 10px;
+    border-radius: 200px;
+}
+.logo{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+}
+.contact img{
+    height: 200vh;
+    width: 200vh;
+
+}
+
+.catanddog {
+    border: 0px solid white;
+    height: 100vh;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.catanddog .catanddog1:hover {
+    height: 500px;
+    border: 2px solid rgb(247, 243, 243);
+    border-radius: 30px;
+}
+img{
+    width: 50vh;
+    height: 200px;
+    border-radius: 30px;
+    transition: 0.5s ease-in;
+
+}
+.catanddog .catanddog1 img:hover{
+    border-radius: 400px;
+    transition: 0.5s ease-in;
+}
+.catanddog .catanddog img:hover{
+    box-shadow: 2px 2px 4px 4px rgb(241, 235, 235);
+    border-radius: 60%;
+}
+h3{
+    color: black;
+    left: 500%;
+}
+p h3{
+    color:rgba(165, 42, 42, 0.568);
+    font-style: italic;
+
+}
+h2{
+    color: rgb(13, 3, 58);
+}
+.body{
+    height: 200px;
+    width:100px;
+}

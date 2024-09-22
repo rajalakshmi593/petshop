@@ -1,0 +1,39 @@
+
+.catanddog {
+    border: 0px solid white;
+    height: 50vh;
+    width: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+
+}
+.catanddog .catanddog1:hover {
+    height: 500px;
+    border: 2px solid rgba(3, 3, 2, 0.863);
+    border-radius: 30px;
+}
+img{
+    width: 50vh;
+    height: 200px;
+    border-radius: 30px;
+    transition: 0.5s ease-in;   
+
+}
+.catanddog .catanddog1 img:hover{
+    border-radius: 400px;
+    transition: 0.5s ease-in;
+}
+.catanddog .catanddog img:hover{
+    box-shadow: 2px 2px 4px 4px black;
+    border-radius: 60%;
+}
+h2{
+    color:rgb(238, 235, 235);
+    left: 500%;
+}
+p{
+    color:rgb(253, 252, 252);
+    font-style: italic;
+}
+

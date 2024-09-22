@@ -1,0 +1,108 @@
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+.main-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 163, 159);
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.main-header ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+.main-header ul li a{
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+.main-header h1{
+    size: 30px;
+    font-family: sans-serif;
+}
+.container1{
+    height: 100vh;
+    border: 2px solid rgb(4, 97, 11);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-style: italic;
+}
+.container1 .box{
+    height: 90vh;
+    margin: 50px;
+}
+.container1 .box2 img{
+    width: 500px;
+    height: 600px;
+    border-radius: 50px;
+    color: black;
+}
+.container1 .box .content{
+    font-size:30px;
+    margin:40px;
+    color: rgb(25, 163, 12)
+}
+.container1 .box .content .h2{
+    color: rgb(43, 5, 80);
+    margin: 0px;
+}
+.container1 .box form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    color: rgb(21, 112, 21);
+}
+.container1 .box form button{
+    height:70px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 50px;
+
+}
+.container1 .box form div .button1{
+    background-color:rgb(72, 72, 202);
+    color:white
+}
+.container1 .box form div .button1:hover{
+    padding: 5px;
+
+}
+h1{
+    margin: 10px;
+    text-align: center;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+
+}
+.container2 .box3{
+    height: 550px;
+    width: 400px;
+    border: 2px solid  rgb(0, 128, 17);
+    gap: 2px;
+
+}
+.container2 .box3 .img{
+    border-radius: 50px;
+}
+img{
+    height: 250px;
+    width: 400px;
+}
+h1{
+    color: rgb(121, 17, 17);
+}
+.logo img{
+    height: 80px;
+    width: 110px;
+    border-radius: 900vh;
+}
+.container2 .box3 .logo{
+    display: flex;
+}
